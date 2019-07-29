@@ -1,14 +1,14 @@
-n1 = int(input())
-a1= []
-e1= []
-for i in range(2**n1):
-    b1 = bin(i)[2:]
-    l = len(b1)
-    b1 = str(0) * (n1 - l) + b1
-    a1.append(b1)
-for i in a1:
+n = int(input())
+a= []
+e= []
+for i in range(2**n):
+    b = bin(i)[2:]
+    l = len(b)
+    b = str(0) * (n - l) + b
+    a.append(b)
+for i in a:
     c = i.count("1")
     d = (c,i)
-    e1.append(d)
-for i in sorted(e1):
+    e.append(d)
+for i in sorted(e):
     print(i[1])
