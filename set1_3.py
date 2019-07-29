@@ -5,4 +5,4 @@ for i in range(len(x)):
        break
     if(x[i]!=y[i]):
        w=w+1
-       print(w)
+print(w)
