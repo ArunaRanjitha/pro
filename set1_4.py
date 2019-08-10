@@ -15,4 +15,4 @@ def DP(str1, str2, m, n):
     return dp[m][n] 
 str1 = "sunday"
 str2 = "saturday"
-print(editDistDP(str1, str2, len(str1), len(str2))) 
+print(DP(str1, str2, len(str1), len(str2))) 
